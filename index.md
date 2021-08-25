@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 
-To read about ThreeMM's privacy policy, [click here](https://github.com/sina3/ThreeMM/edit/gh-pages/privacy.md)
+To read about ThreeMM's privacy policy, [click here](https://github.com/sina3/ThreeMM/gh-pages/privacy.md)
 
 You can use the [editor on GitHub](https://github.com/sina3/ThreeMM/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
