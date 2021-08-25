@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		274742EF26CDBAC7004A5B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274742EE26CDBAC7004A5B38 /* AppDelegate.swift */; };
 		274742F126CDBAC7004A5B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274742F026CDBAC7004A5B38 /* SceneDelegate.swift */; };
-		274742F326CDBAC7004A5B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274742F226CDBAC7004A5B38 /* ViewController.swift */; };
-		274742F626CDBAC8004A5B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274742F426CDBAC8004A5B38 /* Main.storyboard */; };
 		274742F826CDBAD6004A5B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274742F726CDBAD6004A5B38 /* Assets.xcassets */; };
 		274742FB26CDBAD6004A5B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274742F926CDBAD6004A5B38 /* LaunchScreen.storyboard */; };
+		2747430B26CDBC27004A5B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2747430826CDBC27004A5B38 /* ViewController.swift */; };
+		2747430C26CDBC27004A5B38 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2747430926CDBC27004A5B38 /* Cell.swift */; };
+		2747430D26CDBC27004A5B38 /* ThreeMM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2747430A26CDBC27004A5B38 /* ThreeMM.swift */; };
+		2747431126CDBC47004A5B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2747430F26CDBC47004A5B38 /* Main.storyboard */; };
+		279B3EEE26D428FE00766F8B /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B3EED26D428FC00766F8B /* RulesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		274742EB26CDBAC7004A5B38 /* Simple TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple TicTacToe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274742EB26CDBAC7004A5B38 /* 3MM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3MM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		274742EE26CDBAC7004A5B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		274742F026CDBAC7004A5B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		274742F226CDBAC7004A5B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		274742F526CDBAC8004A5B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		274742F726CDBAD6004A5B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274742FA26CDBAD6004A5B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		274742FC26CDBAD6004A5B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2747430826CDBC27004A5B38 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2747430926CDBC27004A5B38 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		2747430A26CDBC27004A5B38 /* ThreeMM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeMM.swift; sourceTree = "<group>"; };
+		2747431026CDBC47004A5B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		279B3EED26D428FC00766F8B /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +46,7 @@
 		274742E226CDBAC7004A5B38 = {
 			isa = PBXGroup;
 			children = (
-				274742ED26CDBAC7004A5B38 /* Simple TicTacToe */,
+				274742ED26CDBAC7004A5B38 /* ThreeMM */,
 				274742EC26CDBAC7004A5B38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +54,42 @@
 		274742EC26CDBAC7004A5B38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				274742EB26CDBAC7004A5B38 /* Simple TicTacToe.app */,
+				274742EB26CDBAC7004A5B38 /* 3MM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		274742ED26CDBAC7004A5B38 /* Simple TicTacToe */ = {
+		274742ED26CDBAC7004A5B38 /* ThreeMM */ = {
+			isa = PBXGroup;
+			children = (
+				2747430926CDBC27004A5B38 /* Cell.swift */,
+				2747430A26CDBC27004A5B38 /* ThreeMM.swift */,
+				2747430826CDBC27004A5B38 /* ViewController.swift */,
+				2747430F26CDBC47004A5B38 /* Main.storyboard */,
+				279B3EED26D428FC00766F8B /* RulesViewController.swift */,
+				2747430326CDBB0A004A5B38 /* Supporting Files */,
+				274742F726CDBAD6004A5B38 /* Assets.xcassets */,
+				274742FC26CDBAD6004A5B38 /* Info.plist */,
+			);
+			path = ThreeMM;
+			sourceTree = "<group>";
+		};
+		2747430326CDBB0A004A5B38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				274742EE26CDBAC7004A5B38 /* AppDelegate.swift */,
 				274742F026CDBAC7004A5B38 /* SceneDelegate.swift */,
-				274742F226CDBAC7004A5B38 /* ViewController.swift */,
-				274742F426CDBAC8004A5B38 /* Main.storyboard */,
-				274742F726CDBAD6004A5B38 /* Assets.xcassets */,
 				274742F926CDBAD6004A5B38 /* LaunchScreen.storyboard */,
-				274742FC26CDBAD6004A5B38 /* Info.plist */,
 			);
-			path = "Simple TicTacToe";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		274742EA26CDBAC7004A5B38 /* Simple TicTacToe */ = {
+		274742EA26CDBAC7004A5B38 /* 3MM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 274742FF26CDBAD7004A5B38 /* Build configuration list for PBXNativeTarget "Simple TicTacToe" */;
+			buildConfigurationList = 274742FF26CDBAD7004A5B38 /* Build configuration list for PBXNativeTarget "3MM" */;
 			buildPhases = (
 				274742E726CDBAC7004A5B38 /* Sources */,
 				274742E826CDBAC7004A5B38 /* Frameworks */,
@@ -82,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = "Simple TicTacToe";
+			name = 3MM;
 			productName = "Simple TicTacToe";
-			productReference = 274742EB26CDBAC7004A5B38 /* Simple TicTacToe.app */;
+			productReference = 274742EB26CDBAC7004A5B38 /* 3MM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 274742E626CDBAC7004A5B38 /* Build configuration list for PBXProject "Simple TicTacToe" */;
+			buildConfigurationList = 274742E626CDBAC7004A5B38 /* Build configuration list for PBXProject "3MM" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				274742EA26CDBAC7004A5B38 /* Simple TicTacToe */,
+				274742EA26CDBAC7004A5B38 /* 3MM */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2747431126CDBC47004A5B38 /* Main.storyboard in Resources */,
 				274742FB26CDBAD6004A5B38 /* LaunchScreen.storyboard in Resources */,
 				274742F826CDBAD6004A5B38 /* Assets.xcassets in Resources */,
-				274742F626CDBAC8004A5B38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,29 +154,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274742F326CDBAC7004A5B38 /* ViewController.swift in Sources */,
+				2747430B26CDBC27004A5B38 /* ViewController.swift in Sources */,
+				2747430C26CDBC27004A5B38 /* Cell.swift in Sources */,
 				274742EF26CDBAC7004A5B38 /* AppDelegate.swift in Sources */,
 				274742F126CDBAC7004A5B38 /* SceneDelegate.swift in Sources */,
+				279B3EEE26D428FE00766F8B /* RulesViewController.swift in Sources */,
+				2747430D26CDBC27004A5B38 /* ThreeMM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		274742F426CDBAC8004A5B38 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				274742F526CDBAC8004A5B38 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		274742F926CDBAD6004A5B38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				274742FA26CDBAD6004A5B38 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2747430F26CDBC47004A5B38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2747431026CDBC47004A5B38 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -216,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,13 +307,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3358LFT65J;
-				INFOPLIST_FILE = "Simple TicTacToe/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ThreeMM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sina.Simple-TicTacToe";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sina.3MM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +328,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3358LFT65J;
-				INFOPLIST_FILE = "Simple TicTacToe/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ThreeMM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sina.Simple-TicTacToe";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sina.3MM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		274742E626CDBAC7004A5B38 /* Build configuration list for PBXProject "Simple TicTacToe" */ = {
+		274742E626CDBAC7004A5B38 /* Build configuration list for PBXProject "3MM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				274742FD26CDBAD6004A5B38 /* Debug */,
@@ -331,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		274742FF26CDBAD7004A5B38 /* Build configuration list for PBXNativeTarget "Simple TicTacToe" */ = {
+		274742FF26CDBAD7004A5B38 /* Build configuration list for PBXNativeTarget "3MM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2747430026CDBAD7004A5B38 /* Debug */,
